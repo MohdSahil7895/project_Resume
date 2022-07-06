@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./My Components/Header";
-import { Footer } from "./Footer";
+import { Footer } from "./My Components/Footer";
 import { Login } from "./My Components/Login";
 import React from "react";
 import {
@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import { About } from "./My Components/About";
 import { Home } from "./My Components/Home";
-
+import { SignUp } from "./My Components/SignUp";
 function App() {
   return (
     <>
@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/" element={<Login />}  />
           
 
-          <Route exact path="/home"  element={<Login />} />
+          <Route exact path="/SignUp"  element={<SignUp />} />
               
         </Routes>
         <Footer />

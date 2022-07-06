@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {
+    Link
+  } from "react-router-dom";
 export const Login = () => {
     let loginstyle={
     padding:"50px",
@@ -41,7 +43,7 @@ export const Login = () => {
     {/* <!-- Register buttons --> */}
     <div className="text-center">
   
-      <p>Not a member? <a href="#!">Register</a></p>
+      <p>Not a member? <Link to="/SignUp">Sign Up</Link></p>
   
     </div>
   </form>
