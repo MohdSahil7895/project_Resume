@@ -5,8 +5,6 @@ import axios from "axios"
 import { useHistory } from "react-router-dom"
 import { useNavigate } from 'react-router-dom';
 
-
-
 export const SignUp = () => {
     const navigate = useNavigate();
   const [user, setUser] = useState({
