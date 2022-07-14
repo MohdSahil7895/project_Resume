@@ -21,11 +21,11 @@ function App() {
 
         <Routes>
           <Route exact path="/About"  element={<About />}  />
-          
+        
           <Route exact path="/" element={<Login />}  />
-          
-
+      
           <Route exact path="/SignUp"  element={<SignUp />} />
+          <Route exact path="/Home"  element={<Home />} />
               
         </Routes>
         <Footer />
